@@ -44,12 +44,12 @@ body {
 
     0%,
     100% {
-        text-shadow: 0 0 10px #ff0000a8, 0 0 20px #5c040f, 0 0 20px #4e0307a8, 0 0 20px #ff0000a8, 0 0 2px #fe2828, 2px 2px 2px #700513;
+        text-shadow: 0 0 10px #ff0000a8, 0 0 20px #af0505, 0 0 20px #4e03070c, 0 0 20px #ff0000a8, 0 0 2px #fe2828, 2px 2px 2px #70051300;
         color: #ff0000;
     }
 
     50% {
-        text-shadow: 0 0 2px #800e0b, 0 0 5px #800e0b, 0 0 5px #800e0b, 0 0 5px #800e0b, 0 0 2px #800e0b, 4px 4px 2px #7a010163;
+        text-shadow: 0 0 2px #ca110af5, 0 0 5px #cc0c05f1, 0 0 5prgba(128, 15, 11, 0)0b, 0 0 5px #800f0b00, 0 0 2px #c9201aa2, 4px 4px 2px #7a010163;
         color: #e60d0d;
     }
 }
