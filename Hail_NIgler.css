@@ -190,6 +190,8 @@ span {
         height: 100%;
         /* top:50%; */
         transform: translatey(-10%);
+        transform: scale(3.5)
+        /* transform: rotate(90deg); */
 
     }
 
