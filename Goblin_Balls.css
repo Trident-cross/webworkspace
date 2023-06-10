@@ -34,25 +34,37 @@ body {
 }
 
 .glass {
+    /* background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0)); */
+    /* -webkit-backdrop-filter: blur(10px); */
+    /* border-radius: 20px; */
+    /* border:1px solid rgba(255, 255, 255, 0.18); */
+    /* box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37); */
     text-align: center;
+    /* color: aqua; */
     font-size: larger;
+    /* color: rgb(197, 18, 18); */
     text-shadow: 0 0 5px #ff0f2f, 0 0 1px #ff0f2f, 0 0 20px #ff0f2f;
+    /* animation: colorful 6s infinite; */
     animation: neon 0.3s ease infinite;
 }
 
 @keyframes neon {
-
     0%,
     100% {
-        text-shadow: 0 0 10px #ff0000a8, 0 0 20px #af0505, 0 0 20px #4e03070c, 0 0 20px #ff0000a8, 0 0 2px #fe2828, 2px 2px 2px #70051300;
+        text-shadow: 0 0 10px #ff0000a8, 0 0 20px #ff5100, 0 0 20px #ef8f00a8, 0 0 20px #ff0000a8, 0 0 2px #fe2828, 2px 2px 2px #9901ff;
         color: #ff0000;
     }
-
     50% {
-        text-shadow: 0 0 2px #ca110af5, 0 0 5px #cc0c05f1, 0 0 5prgba(128, 15, 11, 0)0b, 0 0 5px #800f0b00, 0 0 2px #c9201aa2, 4px 4px 2px #7a010163;
-        color: #e60d0d;
+        text-shadow: 0 0 2px #800e0b, 0 0 5px #800e0b, 0 0 5px #800e0b, 0 0 5px #800e0b, 0 0 2px #800e0b, 4px 4px 2px #1f141a9a;
+        color: #dd084f;
     }
 }
+
+/* @keyframes colorful {
+    100% {
+        filter: hue-rotate(360deg);
+    }
+} */
 
 h1 {
     position: relative;
