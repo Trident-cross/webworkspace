@@ -142,8 +142,8 @@ span {
 
 /* Glass effect */
 .glass {
-    background: rgb(41, 84, 224);
-    background: linear-gradient(104deg, rgba(74, 53, 75, 0.814) 0%, rgba(117, 94, 180, 0.39) 100%);
+    background: rgb(224, 41, 41);
+    background: linear-gradient(104deg, rgba(194, 15, 39, 0.814) 0%, rgba(179, 13, 13, 0.39) 100%);
     border-radius: 20px;
     /* border: 1px solid red; */
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.527);
