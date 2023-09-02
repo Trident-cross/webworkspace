@@ -18,7 +18,7 @@ const flash_div = document.querySelector('#flash')
 let currTime = new Date().getHours();
 
 
-buttons[0].addEventListener('click', () => {
+buttons[2].addEventListener('click', () => {
   window.location.href = 'Gobin_Balls.html';
 })
 
@@ -36,7 +36,7 @@ buttons[1].addEventListener('click', () => {
 
 
 
-buttons[2].addEventListener('click', () => {
+buttons[0].addEventListener('click', () => {
   window.location.href = 'Hail_NIgler.html'
 })
 
